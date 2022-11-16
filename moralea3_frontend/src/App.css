@@ -1,0 +1,154 @@
+/* 
+This style sheet can be used for reference
+but not for an assignment.
+*/
+
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+/*
+body {
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+}
+*/
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: lightseagreen;
+  color: black;
+  border: #0e4dcb;
+  font-size: large;
+  font-weight: 2000;
+  margin: 0;
+  padding:.3%;
+}
+
+.App-Header {
+  text-align: center;
+  background-color: lightseagreen;
+  color: black;
+  border: #0e4dcb;
+  font-size: large;
+  font-weight: 1000;
+  margin: 0;
+  padding:.5%;
+}
+
+.App-Footer{
+  text-align: left;
+  background-color: lightseagreen;
+  color: black;
+  font-size: small;
+  font-weight: 1000;
+  margin: 0;
+  padding:0%
+}
+
+/* Main header implmentation*/
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+header, main, article, footer {
+  border-bottom:1px solid black;
+}
+
+main{
+  text-align: center;
+  background-color: lightseagreen;
+  color: black;
+  font-size: small;
+  font-weight: 1000;
+  margin: 0;
+  padding:0%;
+}
+
+table {
+  border: 1px solid aqua;
+  text-align: center;
+  background-color: lightseagreen;
+  color: black;
+  font-size: small;
+  font-weight: 1000;
+  margin-left: auto; 
+  margin-right: auto;
+  padding:0%;
+  border:1cm;
+  border-collapse: separate
+}
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {
+  text-align:center;
+  margin:.4% 0 1% 0;
+  padding:0;
+}
+
+nav a {
+  text-align: center;
+  background-color:black;
+  border:2px solid black;
+  border-radius:5px 5px 0 0; 
+  color:white;
+  line-height: normal;
+  font-size:1.1em;
+  font-weight:bold;
+  margin: 4;
+  padding: 1px 20px 5px 20px;
+  text-decoration:none;
+  vertical-align: auto;
+}
+
+nav a:hover {
+  background-color:white;
+  color:black;
+}
+
+/* TABLE */
+table {
+  margin:0 auto;
+}
+caption {color:black;}
+tr td, td th {
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+tr:nth-child(even){background-color:rgb(245, 244, 244);}
+th {
+  font-weight:normal;
+  padding: 4px;
+  background-color: lightgray;
+}
+
+
+/* FORM */
+fieldset {
+  border:1px solid gray;
+}
+legend {
+  background-color:whitesmoke;
+}
+label {
+  display:block;
+  margin-top:30px;
+}
+input {
+  padding:8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button {
+  padding:5px;
+  background-color: grey;
+  color: whitesmoke;
+  border:8px solid gray;
+  border-radius:2px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button:hover {
+  background-color: lightpink;
+  color: gray;
+}
+
